@@ -31,9 +31,16 @@ Code Coverage Report
 
 ### FAQ
 
+  Q. If the class which you are giving as input is dependent on other classes?
+
+  A. Save all the classes it depends on as separate java files as <classname>.java in the src folder. And in the input box, give all the classes the class to be tested depends on along with the class to be tested and the required import statements.
+
   Q. Don't see your program in the Code Coverage report?
 
   A. There might have been some problem in saving the program in the 'src' directory. Please save each class INDIVIDUALLY in the 'src' directory. If your program uses 2 classes, say class Hello{} and class World{} save them as 2 separate '.java' files in the 'src' directory. 
 If the above is ensured, then make sure there are no errors in your given code. 
 
+  Q. An error in generating code coverage?
+
+  A. There might have been a problem in the import statements; all the required libraries might not have been imported. So, manually update the test file with the required libraries and open terminal on the main folder setup and run the command ```ant``` to generate code coverage report. 
 
