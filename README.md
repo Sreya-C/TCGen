@@ -47,7 +47,7 @@ If the above is ensured, then make sure there are no errors in your given code.
 
 ### Sources
 
-  # https://ant.apache.org/bindownload.cgi
+https://ant.apache.org/bindownload.cgi
   
-  # https://jar-download.com/artifact-search/org.jacoco.ant
+https://jar-download.com/artifact-search/org.jacoco.ant
   
